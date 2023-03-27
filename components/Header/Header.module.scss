@@ -2,6 +2,103 @@
 
 .header {
   background-color: $header-background-color;
+  background-image: url("../../assets/images/code-bkg.png");
+  background-position: center;
+  background-repeat: no repeat;
+  background-size: cover;
   padding: 1.5em 1em;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: $header-height-mobile-small;
+}
+
+.spacer {
+  width: 100%;
+  height: 10px;
+  background-color: white;
+  transform: translateY(-20px);
+}
+
+.title {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: $header-fontsize-mobile-small;
+  letter-spacing: 0.05em;
+}
+
+.headerWEB {
+  color: $header-WEB-color;
+  transform: translate($header-translateX-mobile-small, $header-translateY-mobile-small);
+}
+
+.headerDEVELOPMENT {
+  color: $header-DEVELOPMENT-color;
+}
+
+// Mobile Medium
+@media screen and (min-width: 375px) {
+  .header {
+    height: $header-height-mobile-medium;
+  }
+  .title {
+    font-size: $header-fontsize-mobile-medium;
+  }
+  .headerWEB {
+    transform: translate($header-translateX-mobile-medium, $header-translateY-mobile-medium);
+  }
+}
+
+// Mobile Large
+@media screen and (min-width: 425px) {
+  .header {
+    height: $header-height-mobile-large;
+  }
+  .title {
+    font-size: $header-fontsize-mobile-large;
+  }
+  .headerWEB {
+    transform: translate($header-translateX-mobile-large, $header-translateY-mobile-large);
+  }
+}
+
+// Tablet
+@media screen and (min-width: 768px) {
+  .header {
+    height: $header-height-tablet;
+  }
+  .title {
+    font-size: $header-fontsize-tablet;
+  }
+  .headerWEB {
+    transform: translate($header-translateX-tablet, $header-translateY-tablet);
+  }
+}
+
+// Laptop
+@media screen and (min-width: 1024px) {
+  .header {
+    height: $header-height-laptop;
+  }
+  .title {
+    font-size: $header-fontsize-laptop;
+  }
+  .headerWEB {
+    transform: translate($header-translateX-laptop, $header-translateY-laptop);
+  }
+}
+
+// Laptop Large
+@media screen and (min-width: 1440px) {
+  .header {
+    height: $header-height-laptop-large;
+  }
+  .title {
+    font-size: $header-fontsize-laptop-large;
+  }
+  .headerWEB {
+    transform: translate($header-translateX-laptop-large, $header-translateY-laptop-large);
+  }
 }

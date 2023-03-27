@@ -1,0 +1,55 @@
+@import "../../styles/variables.scss";
+
+.container {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.header {
+  padding: 1em;
+  font-family: "Inter", sans-serif;
+}
+
+.title {
+  font-weight: bold;
+  color: $projects-header-title-color;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 0.4em;
+}
+
+.contactInfo {
+  font-family: "Inter", sans-serif;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: bold;
+}
+
+.githubUsername {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.githubLogo {
+  margin-right: 0.25em;
+}
+
+.infoSecondary {
+  color: $contact-info-secondary;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+    margin-top: 0.6em;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 2.8rem;
+  }
+}

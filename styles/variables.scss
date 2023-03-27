@@ -1,1 +1,50 @@
-$header-background-color: rgb(137, 181, 96);
+// HEADER
+$header-background-color: #0B355C;
+$header-WEB-color: #e2e2e2;
+$header-DEVELOPMENT-color: #2CD196;
+
+// PROJECTS HEADER
+$projects-header-title-color: #75828D;
+
+// DEV INFO
+$contact-info-secondary: #9CA4AC;
+
+/* #region RESPONSIVE VARAIBLES */
+
+/* MOBILE SMALL: 0px - 320px */
+$header-height-mobile-small: 50vh;        
+$header-fontsize-mobile-small: 2.6rem;
+$header-translateX-mobile-small: -45px;
+$header-translateY-mobile-small: 15px;
+
+/* MOBILE MEDIUM: 321px - 375px */
+$header-height-mobile-medium: 60vh;
+$header-fontsize-mobile-medium: 3.2rem;
+$header-translateX-mobile-medium: -50px;
+$header-translateY-mobile-medium: 15px;
+
+/* MOBILE LARGE: 376px - 425px */
+$header-height-mobile-large: 65vh;
+$header-fontsize-mobile-large: 3.4rem;
+$header-translateX-mobile-large: -50px;
+$header-translateY-mobile-large: 15px;
+
+/* TABLET: 426px - 768px */
+$header-height-tablet: 65vh;
+$header-fontsize-tablet: 5rem;
+$header-translateX-tablet: -80px;
+$header-translateY-tablet: 20px;
+
+/* LAPTOP: 769px - 1024px */
+$header-height-laptop: 70vh;
+$header-fontsize-laptop: 5.5rem;
+$header-translateX-laptop: -84px;
+$header-translateY-laptop: 26px;
+
+/* LAPTOP-LARGE: 1025px - 1440px */
+$header-height-laptop-large: 80vh;
+$header-fontsize-laptop-large: 6.4rem;
+$header-translateX-laptop-large: -94px;
+$header-translateY-laptop-large: 30px;
+
+/* #endregion */
