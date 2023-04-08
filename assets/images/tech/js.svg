@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="145.67236mm"
+   height="156.33133mm"
+   viewBox="0 0 145.67236 156.33133"
+   version="1.1"
+   id="svg1333"
+   sodipodi:docname="js.svg"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1335"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.49925392"
+     inkscape:cx="123.18381"
+     inkscape:cy="634.94745"
+     inkscape:window-width="1440"
+     inkscape:window-height="872"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1330">
+    <rect
+       x="9.9903622"
+       y="11.417557"
+       width="529.4892"
+       height="563.74188"
+       id="rect1165" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.15534395,-0.05990062)">
+    <rect
+       style="fill:#f7df2b;fill-opacity:1;stroke-width:0.378038"
+       id="rect271"
+       width="145.67236"
+       height="156.33133"
+       x="0.15534395"
+       y="0.059900615" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,22.894215,26.870344)"
+       id="text1163"
+       style="font-size:325.333px;white-space:pre;shape-inside:url(#rect1165);display:inline;fill:#000000;fill-opacity:1"><tspan
+         x="9.9902344"
+         y="308.22913"
+         id="tspan1665"><tspan
+           style="font-weight:bold"
+           id="tspan1663">JS</tspan></tspan></text>
+  </g>
+</svg>

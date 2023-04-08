@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50mm"
+   height="50mm"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="svg217"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   sodipodi:docname="mongoose.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview219"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.2681552"
+     inkscape:cx="140.75564"
+     inkscape:cy="232.62137"
+     inkscape:window-width="1440"
+     inkscape:window-height="872"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs214">
+    <rect
+       x="52.909367"
+       y="62.529251"
+       width="644.53229"
+       height="488.20917"
+       id="rect275" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.35555034,0,0,0.31580068,-21.568103,-32.773943)"
+       id="text273"
+       style="font-size:173.333px;white-space:pre;shape-inside:url(#rect275);display:inline;fill:#a34643;fill-opacity:1"><tspan
+         x="52.910156"
+         y="236.72895"
+         id="tspan1316"><tspan
+           style="font-family:'Adobe Heiti Std';-inkscape-font-specification:'Adobe Heiti Std'"
+           id="tspan1314">m</tspan></tspan></text>
+  </g>
+</svg>

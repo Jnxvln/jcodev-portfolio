@@ -1,15 +1,11 @@
-// HEADER
+
+
+// #region HEADER SECTION
 $header-background-color: #0B355C;
 $header-WEB-color: #e2e2e2;
 $header-DEVELOPMENT-color: #2CD196;
 
-// PROJECTS HEADER
-$projects-header-title-color: #75828D;
-
-// DEV INFO
-$contact-info-secondary: #9CA4AC;
-
-/* #region RESPONSIVE VARAIBLES */
+/* #region HEADER RESPONSIVE VARAIBLES */
 
 /* MOBILE SMALL: 0px - 320px */
 $header-height-mobile-small: 50vh;        
@@ -48,3 +44,15 @@ $header-translateX-laptop-large: -94px;
 $header-translateY-laptop-large: 30px;
 
 /* #endregion */
+// #endregion
+
+// #region PROJECTS SECTION
+$projects-header-title-color: #75828D;    // Header
+$contact-info-secondary: #9CA4AC;         // Dev Info
+// #endregion
+
+// #region TECH SECTION
+$tech-background-color: #0B355C;
+$tech-title-color: #37BC8C;
+$tech-description-color: #97B7D3;
+// #endregion

@@ -1,0 +1,12 @@
+$footerBackgroundColor: #06111C;
+$footerTextColor: #6495CE;
+
+.footer {
+  background-color: $footerBackgroundColor;
+  color: $footerTextColor;
+  padding: 3em;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  font-weight: normal;
+}

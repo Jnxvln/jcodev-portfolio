@@ -1,8 +1,7 @@
 @import "../../styles/variables.scss";
 
 .container {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding: 0 2em 2em 2em;
 }
 
 .header {
@@ -35,6 +34,7 @@
 
 .githubLogo {
   margin-right: 0.25em;
+  stroke: white;
 }
 
 .infoSecondary {

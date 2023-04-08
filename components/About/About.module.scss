@@ -1,0 +1,152 @@
+$titleAColor: #10528F;
+$titleBColor: #2F79BE;
+$titleCColor: #ACBBC8;
+$backgroundColor: #F9F9F9;
+$paragraphColor: #7899B8;
+$contactBackgroundColor: #245079;
+$contactTextColor: #BBCADA;
+
+.sectionContainer {
+  background-color: $backgroundColor;
+  padding: 2em;
+}
+
+.headerTitle {
+  text-align: right;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 2.50rem;
+  margin-right: 0.05em;
+  font-family: "Inter", sans-serif;
+}
+
+.titleA {
+  color: $titleAColor;
+}
+
+.titleB {
+  color: $titleBColor;
+}
+
+.titleC {
+  color: $titleCColor;
+}
+
+.about {
+  // border: 2px solid blue;
+  max-width: 600px;
+  margin: 3em auto auto auto;
+
+  p {
+    // border: 2px solid red;
+    color: $paragraphColor;
+    font-family: "Inter", sans-serif;
+    line-height: 175%;
+    margin-bottom: 1em;
+    font-size: 1.25rem;
+    width: 100%;
+  }
+}
+
+.interests {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+
+  .interest {
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(13, 86, 181);
+    background-color: rgb(237, 237, 237);
+    transition: background-color 0.3s;
+  }
+
+  .interest:hover {
+    background-color: rgb(220, 220, 220);
+    transition: background-color 0.3s;
+  }
+}
+
+.githubUsername {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: "Inter", sans-serif;
+}
+
+.githubLogo {
+  margin-right: 0.25em;
+}
+
+.footer {
+  background-color: $contactBackgroundColor;
+  color: $contactTextColor;
+  padding: 2em;
+}
+
+.contactInfo {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  gap: 10px;
+}
+
+.contactInfo div {
+  color: $contactTextColor;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .sectionContainer {
+    padding: 4em; 
+  }
+  .interests {
+    flex-direction: row;
+  }
+  .about p {
+    font-size: 1.5rem;
+  }
+  .title {
+    font-size: 3rem;
+  }
+
+  .contactInfo {
+    flex-direction: row;
+
+    div {
+      font-size: 1.2rem;
+    }
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  .sectionContainer {
+    padding: 3em 8em 3em 16em;
+  }
+
+  .contactInfo {
+    div {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 4rem;
+  }
+  
+  .about p {
+    font-size: 2rem;
+  }
+}
