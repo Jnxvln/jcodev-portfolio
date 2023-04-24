@@ -27,7 +27,12 @@ $roundRadius: 20px;
 }
 
 .imageFilter {
-  background-color: rgba(10, 99, 132, 0.546);
+  // background-color: rgba(10, 99, 132, 0.546);
+  background: rgba(10,99,132, 0.546);
+background: -moz-linear-gradient(180deg, rgba(0,17,27,0) 0%, rgba(0,17,27,0) 37%, rgba(0,17,27,0.7553615196078431) 74%, rgba(0,17,27,1) 83%, rgba(0,17,27,1) 100%);
+background: -webkit-linear-gradient(180deg, rgba(0,17,27,0) 0%, rgba(0,17,27,0) 37%, rgba(0,17,27,0.7553615196078431) 74%, rgba(0,17,27,1) 83%, rgba(0,17,27,1) 100%);
+background: linear-gradient(180deg, rgba(0,17,27,0) 0%, rgba(0,17,27,0) 37%, rgba(0,17,27,0.7553615196078431) 74%, rgba(0,17,27,1) 83%, rgba(0,17,27,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00111b",endColorstr="#00111b",GradientType=1);
   position: absolute;
   width: 100%;
   height: 100%;

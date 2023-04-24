@@ -27,7 +27,6 @@ export default function About () {
         <div className={styles.interests}>
           <div className={styles.interest}></div>
           <div className={styles.interest}></div>
-          <div className={styles.interest}></div>
         </div>
       </section>
       {/* Site Footer */}

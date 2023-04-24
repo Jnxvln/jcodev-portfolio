@@ -27,12 +27,12 @@ export default function Project (props: Project) {
       <div className={styles.projectButtonsWrapper}>
         <Link href={props.webURL ? props.webURL : ""} target="_blank" rel="noopener">
           <div className={styles.projectButton}>
-              <Image src={WebLogo} width={60} height={60} className={styles.logo} alt="" />
+              <Image src={WebLogo} width={60} height={60} title="Visit Site" className={styles.logo} alt="Visit Site" />
           </div>
         </Link>
         <Link href={props.repoURL ? props.repoURL : ""} target="_blank" rel="noopener">
           <div className={styles.projectButton}>
-            <Image src={RepoLogo} width={60} height={60} className={styles.logo} alt="" />
+            <Image src={RepoLogo} width={60} height={60} title="Visit Repository" className={styles.logo} alt="Visit Repository" />
           </div>
         </Link>
       </div>
