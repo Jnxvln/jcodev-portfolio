@@ -88,9 +88,9 @@ export default function Tech () {
     <section className={styles.techSection}>
         <svg width="100%" height="100%" className={styles.svgBkg}>
           <text x="10" y="20" style={{ fill: "#2A6195", fontSize: "10rem", opacity: '15%', fontWeight: 'bold' }}>
-            <tspan x="0" y="26%">HTML</tspan>
-            <tspan x="0" y="63%">CSS</tspan>
-            <tspan x="0" y="96%">JS</tspan>
+            <tspan x="0" y="20%">HTML</tspan>
+            <tspan x="0" y="53%">CSS</tspan>
+            <tspan x="0" y="86%">JS</tspan>
           </text>
         </svg>
         <div className={styles.paddingSection}>

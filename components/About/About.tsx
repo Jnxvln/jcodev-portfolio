@@ -2,6 +2,7 @@ import styles from "./About.module.scss";
 import dayjs from "dayjs";
 import GithubLogoWhite from "../../assets/images/github-white.svg"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function About () {
 
@@ -29,10 +30,13 @@ export default function About () {
           <div className={styles.interest}></div>
         </div>
       </section>
+      {/* Site Footer */}
       <footer className={styles.footer}>
         <div className={styles.githubUsername}>
-          <Image src={GithubLogoWhite} width="20" alt="GitHub Logo" className={styles.githubLogo} />
-          Jnxvln
+          <Link href="https://github.com/Jnxvln" className={styles.footerGithubLink} target="_blank" rel="noopener">
+            <Image src={GithubLogoWhite} width="20" alt="GitHub Logo" className={styles.githubLogo} />
+            Jnxvln
+          </Link>
         </div>
         <div className={styles.contactInfo}>
           <div>Justincox.dev@gmail.com</div>

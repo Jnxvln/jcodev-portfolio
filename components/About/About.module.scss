@@ -1,3 +1,5 @@
+@import "../../styles/variables.scss";
+
 $titleAColor: #10528F;
 $titleBColor: #2F79BE;
 $titleCColor: #ACBBC8;
@@ -103,6 +105,17 @@ $contactTextColor: #BBCADA;
   color: $contactTextColor;
   font-size: 1rem;
   font-weight: bold;
+}
+
+.footerGithubLink {
+  text-decoration: none;
+  color: white;
+  transition: color 0.35s;
+}
+
+.footerGithubLink:hover {
+  color: $tech-title-color-lighter;
+  transition: color 0.35s;
 }
 
 @media screen and (min-width: 768px) {
