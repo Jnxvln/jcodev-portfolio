@@ -6,12 +6,6 @@ import styles from "./Projects.module.scss"
 import Project from "./Project/Project";
 import GithubLogo from "../../assets/images/github.svg"
 import Image from "next/image"
-// import Project1Img from "../../assets/images/projects/temp-project-1.png"
-// import Project2Img from "../../assets/images/projects/temp-project-2.png"
-// import Project3Img from "../../assets/images/projects/temp-project-3.png"
-// import Project4Img from "../../assets/images/projects/temp-project-4.png"
-// import Project5Img from "../../assets/images/projects/temp-project-5.png"
-// import Project6Img from "../../assets/images/projects/temp-project-6.png"
 
 import Project1Img from "../../assets/images/projects/web1.png"
 import Project2Img from "../../assets/images/projects/web2.png"
@@ -29,7 +23,7 @@ export default function Projects () {
     description: string
   }
 
-  const [projects, setProjects] = useState([
+  const [projects] = useState([
     {
       id: 1,
       title: "What's The Weather",

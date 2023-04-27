@@ -3,6 +3,7 @@ import dayjs from "dayjs";
 import GithubLogoWhite from "../../assets/images/github-white.svg"
 import Image from "next/image"
 import Link from "next/link"
+import ProfileImage from "../../assets/images/about/justin-cox.jpg"
 
 export default function About () {
 
@@ -11,7 +12,7 @@ export default function About () {
   return (
     <div>
       <section className={styles.sectionContainer}>
-        <header>
+        <header className={styles.headerWrapper}>
           <h1 className={styles.headerTitle}>
             <span className={`${styles.title} ${styles.titleA}`}>&gt; who</span>
             <span className={`${styles.title} ${styles.titleB}`}>am</span>
@@ -20,7 +21,10 @@ export default function About () {
         </header>
 
         <div className={styles.about}>
-          <p>My name is Justin, I am {age} years old and I'm a web developer currently living in Texas.</p>
+          <div className={styles.profileImageWrapper}>
+            <Image src={ProfileImage} alt="Justin Cox" className={styles.profileImage} />
+            <p>My name is Justin, I am {age} years old and I'm a web developer currently living in Texas.</p>
+          </div>
           <p>Aside from programming, I also love to write instrumental music and play video games.</p>
         </div>
 
@@ -29,6 +33,7 @@ export default function About () {
           <div className={styles.interest}></div>
         </div>
       </section>
+
       {/* Site Footer */}
       <footer className={styles.footer}>
         <div className={styles.githubUsername}>

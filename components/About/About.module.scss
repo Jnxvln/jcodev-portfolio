@@ -13,6 +13,10 @@ $contactTextColor: #BBCADA;
   padding: 2em;
 }
 
+.headerWrapper {
+  margin-bottom: 4em;
+}
+
 .headerTitle {
   text-align: right;
 }
@@ -53,9 +57,13 @@ $contactTextColor: #BBCADA;
 }
 
 .interests {
+  // border: 2px solid red;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 2em;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 18px;
 
@@ -118,6 +126,20 @@ $contactTextColor: #BBCADA;
   transition: color 0.35s;
 }
 
+.profileImageWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profileImage {
+  border-radius: 100%;
+  width: auto;
+  max-width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 768px) {
   .sectionContainer {
     padding: 4em; 
@@ -140,6 +162,16 @@ $contactTextColor: #BBCADA;
     }
   }
 
+  .profileImageWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  // .profileImage {
+  //   height: 150px;
+  //   max-width: 150px;
+  // }
 }
 
 @media screen and (min-width: 1024px) {
@@ -151,6 +183,11 @@ $contactTextColor: #BBCADA;
     div {
       font-size: 1.5rem;
     }
+  }
+
+  .profileImage {
+    max-width: 200px;
+    height: 200px;
   }
 }
 

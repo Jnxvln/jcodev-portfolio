@@ -10,6 +10,7 @@ $roundRadius: 20px;
   max-width: 300px;
   border-radius: $roundRadius;
   background-color: rgb(238, 238, 238);
+  margin: 0.75em;
 }
 
 .imageWrapper {
@@ -99,7 +100,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00111b",endCo
   font-family: "Inter", sans-serif;
   font-size: 0.9rem;
   font-weight: normal;
-  line-height: 125%;
+  line-height: 150%;
   // min-height: 300px;
   // max-height: 300px;
 }
