@@ -1,3 +1,13 @@
+
+# Justin's Developer Portfolio
+
+Hello! If you're here to review my portfolio, I just want to thank you for taking the time
+to look at my work. I am trying to transition from my full-time job at a local landscape materials supply store in the Texarkana, Texas area to a Junior Developer position, preferably in Dallas, TX or Little Rock, AR.
+
+I have been programming since the age of 12. Everything I have learned has been from amazing developers across the internet and YouTube, such as Travesty Media. I am self-driven, passionate about programming, and looking forward to landing my first job as a junior developer. You can find contact information within the portfolio, so reach out if you have any questions or comments! Thanks again :)
+
+***
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
